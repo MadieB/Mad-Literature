@@ -416,31 +416,50 @@ public class MadLiterature extends javax.swing.JFrame {
         madLib[0] = "\n On a " + adjective + ", summer day, a white "+ animal + " " + verb +" by you and said, “Hello" + " " + name + "“."+
         "\n “Hello white "+ animal + " " + "“ as you " + verb + ". " + "The little white" + " " + animal + " " + "continued on it's way as you continued on yours." +
         "\n Along the way, you hear someone call out “Hello " + name + "“. " + "You turn to see the Mad Hatter." + 
-        "\n He hands you a china tea cup, though nothing appears to be in it. He then pores a" + " " + color + " " + "liquid in cup"+
+        "\n He hands you a china tea cup, though nothing appears to be in it. He then pores a" + " " + color + " " + "liquid in the cup."+
         "\n You give him a strange look before continuing on your way. While walking you see a floating" + " " + food + " " + " and then a cresent smile. " +
-        "\n Your eyes widen as you say “" + interjection + "“. " + "The cheshire cat laughs at you as he disappears again." +
+        "\n Your eyes widen as you say “" + interjection + "!“ " + "The cheshire cat laughs at you as he disappears again." +
         "\n Continuing to walk, you think to yourself, 'This has been one" + " " + adjective + " " + " day.'";
         
-        madLib[1] = "\n It was a " + adjective + " " + "night. You stare out the window, nothing seemingly interesting until" + name + " " + "appears in front of you"+
-        "\n Your heart stops as " + interjection + " " + "escapes your lips." + name + " " + "begins to " + verb + " " + "around you. Suddenly everything around you disappears as" +
-        "\n you reappear in" + place + ". Your mind has now completely taken over. Now random" + food + " " + "begins" + adverb + " " + "for" + number + " " + "hours."+
-        "\n You begin questioning the madness going on around you." + object + " " + "begin appearing as you travel through time. Upon arrival you see it is" + date + "."+
-        "\n You" + verb + " " + "yourself and your eyes open to see everything around you is back to normal";
+        madLib[1] = "\n It was a " + adjective + " " + "night. You stare out the window, nothing seemingly interesting until" + " " + name + " " + "appears in front of you."+
+        "\n Your heart stops as " + interjection + " " + "escapes your lips." + " " + name + " " + "begins to " + verb + " " + "around you. Suddenly everything around you disappears as" +
+        "\n you reappear in" + " " + place + ". Your mind has now completely taken over. Now a random " + " " + food + " " + "begins" + " " + adverb + " " + " around you for" + " " + number + " " + "hours."+
+        "\n You begin questioning the madness going on around you." + " " + object + "s" + " " + "begin appearing as you travel through time." +
+        "\n Upon arrival you see it is" + " " + date + ". You" + " " + verb + " " + "yourself and your eyes open to see everything around you is back to normal.";
         
-        madLib[2] = "\n A new and " + adjective + " " + "fairy princess is coming out soon! It will be about" + name + " " + "and the " + number + " " + " unicorns. Princess" +name+
-        "\n is more" + adjective + " " + "than the current queen." + name + " " + "is forced to" + verb + " " + "from the kingdom and hide in the nearby" + place + "." +
-        "\n There she discovers the unicorns. She lives a normal life until" + number + " " + "days pass. The gueen discovers her location. She sends" + animal +
-        "\n after her. The unicorns defend her from the queen's servent until finally Prince" + food + " " + "comes to her rescue. Together they live" + adjective +
-        "\n ever after!";
+        madLib[2] = "\n A new and " + adjective + " " + "fairy princess is coming out soon! It will be about" + " " + name + " " + "and the " + number + " " + " unicorns. Princess" + " " +name+
+        "\n is more" + " " + adjective + " " + "than the current queen." + " " + name + " " + "is forced to" + " " + verb + " " + "from the kingdom and hide in the nearby" + " " + place + "." +
+        "\n There she discovers the unicorns. She lives a normal life until" + " " + number + " " + "days pass. The queen discovers her location. She sends her" + " " + animal + 
+        "\n guard after her. The unicorns defend her from the queen's servent until finally Prince" + " " + object + " " + "comes to her rescue." +
+        "\n Together they live" + " "  + adjective + "ever after!";
        
-        madLib[3] = "\n Let's build a snowman! First we need to have a really" + adjective + " " + "snowstorm, of course on "+ date + ". Watching all that" + object +
-        "\n fall makes me" + verb + " " + "for a bowl of" + food + " " + "!" +interjection + "it's still" +adverb+ "abd there's alot of it! Let's go! Next is" + verb +
-        "\n to go out in the cold. Once that is done, we need to get busy. We make a" +object+ "and" +verb+ "it in the" + place + ". It gets so" + verb +
-        "\n we can't roll it anymore. Then we do" + number + " " + "more and stack them on top of each other. We" +verb+ "for" + object + " " + "in the driveway for the"+
-        "\n mouth, eyes, and ears. Mom gives us a scarf, hat, and " + food + " " + "to complete Mr." + name + "!" + interjection + " " + "he's done!";
+        madLib[3] = "\n Let's build a snowman! First we need to have a really" + " " + adjective + " " + "snowstorm, of course on "+ date + ". Watching all that" + " " + object +
+        "\n fall makes me" + " " + verb + " " + "for a bowl of" + " " + food + "s" + "!" + " " + interjection + "it's still" + " " + adverb + "and there's alot of it! Let's go!" + 
+        "\n Next is" + " " + verb + "ing" + " " + "to go out in the cold. Once that is done, we need to get busy. We make a" + " " + object + " " + "and" + " " + verb + " " + 
+        "\n it in the" + " " + place + " " + ". It gets so" + " " + verb + " " + "we can't roll it anymore. Then we do" + " " + number + " " + " " + "more and stack them on top of each other." +
+        "\n We" + " " + verb + " " + "for" + " " + object + " " + "in the driveway for the mouth, eyes, and ears. Mom gives us a scarf, hat, and" + " " + food + " " + 
+        "/n to complete Mr." + " " + name + "!" + " " + interjection + " " + "he's done!";
         
     }
     
+    public void randLib(String Name){
+        char[] messageChars = Name.toCharArray();
+        char firstLetter = messageChars[0];
+                int firstLetterASCII = (int) firstLetter;
+        
+            if(firstLetterASCII >= 65 && firstLetterASCII <= 70){
+                storyBox.setText(madLib[0]);
+            }
+            if(firstLetterASCII >= 71 && firstLetterASCII <= 77){
+                storyBox.setText(madLib[1]);
+            }
+            if(firstLetterASCII >= 78 && firstLetterASCII <= 84){
+                storyBox.setText(madLib[2]);
+            }
+            if(firstLetterASCII >= 85 && firstLetterASCII <= 90){
+                storyBox.setText(madLib[3]);
+            }
+    }
     
     private void storyButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_storyButtonActionPerformed
         //This button is responsible to say "Print story"
@@ -460,7 +479,7 @@ public class MadLiterature extends javax.swing.JFrame {
         adverb = AdverbBox.getText();
         
         initMadLib();
-        storyBox.setText(madLib[0]);
+        randLib(useName);
     }//GEN-LAST:event_storyButtonActionPerformed
 
     //ignore inputBoxes action below! This happened while setting them up. They do nothing....
