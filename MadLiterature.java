@@ -259,7 +259,7 @@ public class MadLiterature extends javax.swing.JFrame {
         jLabel16.setBackground(new java.awt.Color(0, 0, 0));
         jLabel16.setFont(new java.awt.Font("Kristen ITC", 0, 11)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel16.setText("User Name (capitalize first letter)");
+        jLabel16.setText("User's Name (capitalize first letter)");
         jLabel16.setOpaque(true);
 
         UserBox.setBackground(new java.awt.Color(0, 0, 0));
