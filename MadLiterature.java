@@ -79,6 +79,7 @@ public class MadLiterature extends javax.swing.JFrame {
         UserBox = new javax.swing.JTextField();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -273,20 +274,34 @@ public class MadLiterature extends javax.swing.JFrame {
         jLabel17.setText("Enjoy your silly story");
         jLabel17.setOpaque(true);
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("SYHS\\Students$\\800141\\My Documents\\NetBeansProjects\\Mad Literature\\src\\kissclipart-alice-through-the-looking-glass-cheshire-cat-png-c-b55011e2f0fcd5ac.jpg")); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kissclipart-alice-through-the-looking-glass-cheshire-cat-png-c-b55011e2f0fcd5ac.jpg"))); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(976, 546));
         jLabel18.setMinimumSize(new java.awt.Dimension(976, 546));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kissclipart-alice-through-the-looking-glass-cheshire-cat-png-c-b55011e2f0fcd5ac.jpg"))); // NOI18N
+        jLabel19.setMaximumSize(new java.awt.Dimension(976, 546));
+        jLabel19.setMinimumSize(new java.awt.Dimension(976, 546));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(storyButton)
-                .addGap(511, 511, 511))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 544, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(537, 537, 537)
+                        .addComponent(storyButton))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(96, 96, 96)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -339,18 +354,8 @@ public class MadLiterature extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(254, 254, 254))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(60, 60, 60)
-                        .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 544, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(163, Short.MAX_VALUE))
+                                .addGap(254, 254, 254)))))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -416,16 +421,17 @@ public class MadLiterature extends javax.swing.JFrame {
                 .addGap(48, 48, 48)
                 .addComponent(storyButton)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(36, 36, 36)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel17)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(136, Short.MAX_VALUE))
         );
 
         pack();
@@ -455,11 +461,11 @@ public class MadLiterature extends javax.swing.JFrame {
         "\n Together they live" + " "  + adjective + "ever after!";
        
         madLib[3] = "\n Let's build a snowman! First we need to have a really" + " " + adjective + " " + "snowstorm, of course on "+ date + ". Watching all that" + " " + object +
-        "\n fall makes me" + " " + verb + " " + "for a bowl of" + " " + food + "s" + "!" + " " + interjection + "it's still" + " " + adverb + "and there's alot of it! Let's go!" + 
+        "\n fall makes me" + " " + verb + " " + "for a bowl of" + " " + food + "s" + "!" + " " + interjection + " " + "it's still" + " " + adverb + " " + "and there's alot of it! Let's go!" + 
         "\n Next is" + " " + verb + "ing" + " " + "to go out in the cold. Once that is done, we need to get busy. We make a" + " " + object + " " + "and" + " " + verb + " " + 
         "\n it in the" + " " + place + " " + ". It gets so" + " " + verb + " " + "we can't roll it anymore. Then we do" + " " + number + " " + " " + "more and stack them on top of each other." +
         "\n We" + " " + verb + " " + "for" + " " + object + " " + "in the driveway for the mouth, eyes, and ears. Mom gives us a scarf, hat, and" + " " + food + " " + 
-        "/n to complete Mr." + " " + name + "!" + " " + interjection + " " + "he's done!";
+        "\n to complete Mr." + " " + name + "!" + " " + interjection + " " + "he's done!";
         
     }
     
@@ -579,6 +585,7 @@ public class MadLiterature extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
